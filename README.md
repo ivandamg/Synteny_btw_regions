@@ -35,9 +35,29 @@ Series of commands that allow to analyse the synteny between two regions. It als
 
 - For eukaryotes
       
-     - Use genemark to detect Open reading frame (ORF) http://opal.biology.gatech.edu/GeneMark/
+     - Use genemark to detect Open reading frame (ORF). http://opal.biology.gatech.edu/GeneMark/
       
-     - Use Blast2GO for annotate the ORF. (It is time consumming!!) https://www.blast2go.com/
+     - Use Blast2GO for annotate the ORF. (It is time consumming!!). https://www.blast2go.com/
       
 # 3. Sinteny visualization       
-            
+- Use EasyFig to show annotated sequences and blast output between strains. http://mjsull.github.io/Easyfig/  
+
+# 4. Identification of large insertion.
+- Make synteny plot using progressiveMAUVE http://darlinglab.org/mauve/user-guide/progressivemauve.html
+
+- Extract exact coordinates of insertion with MAUVE output
+
+# 5. Test if sequence is originated from a Prophage.
+- Blast to prophage database http://phaster.ca/
+
+- Identify GenomicIsland with different softwares http://www.pathogenomics.sfu.ca/islandviewer/upload/
+
+ # 6. Is the sequence composed of IS elements?
+ 
+ - blast to IS element database https://isfinder.biotoul.fr/
+ 
+ # 7. Do the sequence contain Antimicrobial genes
+ 
+ - blast region to drug resistance db https://cge.cbs.dtu.dk/services/data.php
+ 
+
