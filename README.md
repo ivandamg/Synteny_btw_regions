@@ -12,7 +12,8 @@ Series of commands that allow to analyse the synteny between two regions. It als
 
       # create db 
       makeblastdb -dbtype nucl -in STRAIN_ASSEMBLY -parse_seqids -out STRAINdbFILE_db 
-      # extract;makeblastdb -dbtype prot -in $i -parse_seqids -out db_prot_genomes/$(echo $i | cut -d'_' -f1,2,3)_db  region with coordinates
+      
+      # extractregion with coordinates
       blastdbcmd -entry 'SCAFFOLD' -db STRAINdbFILE_db -range minPosition-maxPosition > Destination/File.fa
       
       
