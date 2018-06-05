@@ -29,13 +29,15 @@ Series of commands that allow to analyse the synteny between two regions. It als
       
 # 2.  Annotate region of both strains
             
--With prokka for prokaryotic genomes
+- With prokka for prokaryotic genomes
  
-            ~/software/prokka-1.12/prokka/bin/prokka --outdir Annotation_$(echo $i | cut -d'_' -f3) --genus $(echo $i | cut -d'_' -f1) --species $(echo $i | cut -d'_' -f2) --strain $(echo $i | cut -d'_' -f3) --locustag Ab_$(echo $i | cut -d'_' -f3) --prefix $(echo $i | cut -d'_' -f1,2,3)_Prokka --rfam --usegenus $i
+            ~/software/prokka-1.12/prokka/bin/prokka --outdir Annotation_FOLDER --genus GENUS --species SPECIES --strain STRAIN --locustag GS_STRAIN --prefix FILEPREFIX_Prokka --rfam --usegenus Destination/File.fa
 
 - For eukaryotes
-      -Use genemark to detect Open reading frame (ORF) http://opal.biology.gatech.edu/GeneMark/
-      -Use Blast2GO for annotate the ORF. (It is time consumming!!) https://www.blast2go.com/
+      
+     -Use genemark to detect Open reading frame (ORF) http://opal.biology.gatech.edu/GeneMark/
+      
+     -Use Blast2GO for annotate the ORF. (It is time consumming!!) https://www.blast2go.com/
       
 # 3. Sinteny visualization       
             
