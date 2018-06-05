@@ -35,9 +35,9 @@ Series of commands that allow to analyse the synteny between two regions. It als
 
 - For eukaryotes
       
-     -Use genemark to detect Open reading frame (ORF) http://opal.biology.gatech.edu/GeneMark/
+     - Use genemark to detect Open reading frame (ORF) http://opal.biology.gatech.edu/GeneMark/
       
-     -Use Blast2GO for annotate the ORF. (It is time consumming!!) https://www.blast2go.com/
+     - Use Blast2GO for annotate the ORF. (It is time consumming!!) https://www.blast2go.com/
       
 # 3. Sinteny visualization       
             
