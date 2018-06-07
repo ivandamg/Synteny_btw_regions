@@ -42,7 +42,7 @@ Series of commands that allow to analyse the synteny between two regions. It als
 # 3. Sinteny visualization       
 - Use EasyFig to show annotated sequences and blast output between strains. http://mjsull.github.io/Easyfig/  
 
-- Use Mauve software with progressiveMauve algorithm.
+- Use Mauve software with progressiveMauve algorithm. see Synteny_plot.pdf Synteny_plot.Rmd for a tutorial on synteny analysis
 
 # 4. Identification of large insertion.
 - Make synteny plot using progressiveMAUVE http://darlinglab.org/mauve/user-guide/progressivemauve.html
